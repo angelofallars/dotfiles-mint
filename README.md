@@ -1,8 +1,8 @@
-### dotfiles
+# dotfiles
 
 My own dotfiles for software development
 
-### Applications
+## Applications
 * Neovim
 * XFCE4 Terminal
 * i3

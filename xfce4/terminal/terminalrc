@@ -34,4 +34,5 @@ ColorPalette=rgb(0,0,0);rgb(170,20,0);rgb(55,171,0);rgb(209,100,0);rgb(0,78,170)
 ColorForeground=#f5c1f5c1f5c1
 ColorBackground=#15dc1ecd23d6
 BackgroundMode=TERMINAL_BACKGROUND_TRANSPARENT
+FontName=Roboto Mono Medium 12
 

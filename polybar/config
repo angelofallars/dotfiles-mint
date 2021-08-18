@@ -47,7 +47,7 @@ line-size = 3
 line-color = #f00
 
 border-size = 4
-border-color = #ff000000
+border-color = #ff0a0a0a
 
 padding-left = 0
 padding-right = 2
@@ -58,8 +58,8 @@ module-margin-right = 2
 ;font-0 = fixed:pixelsize=10;1
 ;font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 ;font-2 = siji:pixelsize=10;1
-font-0 = fixed:pixelsize=10;1
-font-1 = unifont:fontformat=truetype:size=10:antialias=false;0
+font-0 = roboto mono medium:pixelsize=9;1
+font-1 = unifont:fontformat=truetype:size=5:antialias=false;0
 font-2 = siji:pixelsize=10;1
 
 modules-left = bspwm i3
@@ -194,15 +194,15 @@ type = internal/xbacklight
 format = <label> <bar>
 label = LIGHT %percentage%%
 
-bar-width = 8
+bar-width = 20
 bar-indicator = || 
 bar-indicator-foreground = #fff
 bar-indicator-font = 2
-bar-fill = ▅
+bar-fill = ▆ 
 bar-fill-font = 2
 ; bar-fill-foreground = #9f78e1
 bar-fill-foreground = ${colors.primary2}
-bar-empty = ▅
+bar-empty = ▆
 bar-empty-font = 2
 bar-empty-foreground = ${colors.foreground-alt}
 
@@ -300,7 +300,8 @@ label-muted-foreground = #666
 ;bar-volume-foreground-5 = #f5a70a
 ;▅
 
-bar-volume-width = 8
+bar-volume-width = 20
+
 bar-volume-foreground-0 = ${colors.primary2}
 bar-volume-foreground-1 = ${colors.primary2}
 bar-volume-foreground-2 = ${colors.primary2}
@@ -313,10 +314,10 @@ bar-volume-gradient = false
 bar-volume-indicator = ||
 bar-volume-indicator-font = 2
 ;bar-volume-fill = ─
-bar-volume-fill = ▅
+bar-volume-fill = ▆
 bar-volume-fill-font = 2
 ;bar-volume-empty = ─
-bar-volume-empty = ▅
+bar-volume-empty = ▆
 bar-volume-empty-font = 2
 bar-volume-empty-foreground = ${colors.foreground-alt}
 

@@ -232,3 +232,5 @@ exec_always feh --bg-fill ~/Downloads/greenmoon.jpg
 exec --no-startup-id redshift 
 # Transparency
 exec_always compton --vsync opengl-swc --backend gl
+# Swap caps lock and control
+exec --no-startup-id /usr/bin/xmodmap /home/<username>/.Xmodmap

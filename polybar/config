@@ -61,7 +61,7 @@ module-margin-right = 1
 font-0 = roboto mono medium:pixelsize=9;2
 font-1 = unifont:fontformat=truetype:size=4:antialias=false;0
 font-2 = siji:pixelsize=10;1
-font-3 = Roboto black:pixelsize=10;2
+font-3 = fira sans extrabold:pixelsize=10;2
 font-4 = roboto condensed:pixelsize=11;2
 
 modules-left = bspwm i3 cpu memory 

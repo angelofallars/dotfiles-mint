@@ -30,9 +30,9 @@ MiscShowUnsafePasteDialog=FALSE
 BackgroundImageFile=/home/angelof/Downloads/505616.png
 BackgroundImageShading=0.000000
 ScrollingBar=TERMINAL_SCROLLBAR_NONE
-ColorPalette=rgb(0,0,0);rgb(170,20,0);rgb(55,171,0);rgb(209,100,0);rgb(0,78,170);rgb(170,51,158);rgb(3,170,0);rgb(170,170,170);rgb(85,85,85);rgb(255,105,85);rgb(139,255,85);rgb(235,229,87);rgb(74,143,224);rgb(255,128,242);rgb(88,255,85);rgb(255,255,255)
+ColorPalette=rgb(0,0,0);rgb(170,20,0);rgb(55,171,0);rgb(209,100,0);rgb(0,78,170);rgb(170,51,158);rgb(3,170,0);rgb(170,170,170);rgb(85,85,85);rgb(255,105,85);rgb(139,255,85);rgb(235,229,87);rgb(67,140,224);rgb(255,153,245);rgb(88,255,85);rgb(255,255,255)
 ColorForeground=#f5c1f5c1f5c1
 ColorBackground=#15dc1ecd23d6
 BackgroundMode=TERMINAL_BACKGROUND_TRANSPARENT
-FontName=Roboto Mono Medium 12
+FontName=Fira Code Medium 12
 

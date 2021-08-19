@@ -257,7 +257,7 @@ bindsym Control+Shift+1 [class="^.*"] border toggle
 bindsym $mod+F8 exec pactl set-sink-volume 0 +5%
 bindsym $mod+F7 exec pactl set-sink-volume 0 -5%
 
-for_window [class="Brave"] border toggle
+for_window [class="Brave"] 1pixel
 
 exec_always feh --bg-fill ~/Downloads/greenmoon.jpg
 # Redshift lighting
@@ -266,3 +266,6 @@ exec --no-startup-id redshift
 exec_always compton --vsync opengl-swc --backend glx
 # Swap caps lock and control
 exec --no-startup-id /usr/bin/xmodmap /home/<username>/.Xmodmap
+
+# Disable title bar
+new_window 1pixel

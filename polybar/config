@@ -62,13 +62,13 @@ font-0 = roboto mono medium:pixelsize=9;2
 font-1 = unifont:fontformat=truetype:size=4:antialias=false;0
 font-2 = siji:pixelsize=10;1
 font-3 = Roboto black:pixelsize=10;2
-font-4 = roboto medium:pixelsize=10;2
+font-4 = roboto condensed:pixelsize=11;2
 
-modules-left = bspwm i3
+modules-left = bspwm i3 cpu memory 
 modules-center = date 
-modules-right = xbacklight pulseaudio cpu memory powermenu
+modules-right = xbacklight pulseaudio powermenu
 
-tray-position = none
+tray-position = right 
 tray-padding = 2
 ;tray-background = #0063ff
 
@@ -309,7 +309,7 @@ date =
 date-alt = " %Y-%m-%d"
 
 ;time = %H:%M
-time = %l:%M %p, %a %m/%e
+time = %l:%M %p | %a %m/%e
 time-alt = %H:%M:%S
 weekday = %a
 
@@ -320,7 +320,7 @@ format-prefix-foreground = ${colors.foreground-alt}
 ;format-underline = ${colors.pattern1}
 label-font = 5
 
-label = %date% %time%
+label = %time%
 
 [module/pulseaudio]
 type = internal/pulseaudio

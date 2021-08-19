@@ -14,5 +14,9 @@ set autochdir
 
 " colorscheme ayu
 
+" run python
+autocmd FileType python nnoremap <buffer> <F5> :w<CR>:term python3.9 %<CR>
+
+
 source $HOME/.config/nvim/general/settings.vim
 source $HOME/.config/nvim/keys/mappings.vim

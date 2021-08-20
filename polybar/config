@@ -33,7 +33,7 @@ alert = #bd2c40
 
 [bar/mybar]
 ;monitor = ${env:MONITOR:HDMI-1}
-width = 100%
+jidth = 100%
 height = 22
 ;offset-x = 1%
 ;offset-y = 1%
@@ -58,11 +58,14 @@ module-margin-right = 1
 ;font-0 = fixed:pixelsize=10;1
 ;font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 ;font-2 = siji:pixelsize=10;1
+
 font-0 = roboto mono medium:pixelsize=9;2
 font-1 = unifont:fontformat=truetype:size=4:antialias=false;0
 font-2 = siji:pixelsize=10;1
+;i3 workspace numbering
 font-3 = fira sans extrabold:pixelsize=10;2
 font-4 = roboto condensed:pixelsize=11;2
+font-5 = Roboto Condensed Bold:pixelsize=11;2
 
 modules-left = bspwm i3 cpu memory 
 modules-center = date 
@@ -156,7 +159,7 @@ label-urgent-font = 4
 label-mode-padding = 2
 label-mode-foreground = #dddddd
 label-mode-background = ${colors.primary}
-label-mode-font = 5
+label-mode-font = 6
 
 ; focused = Active workspace on focused monitor
 label-focused = %index%
@@ -234,8 +237,8 @@ label-minlen = 8
 bar-load-indicator =
 bar-load-width = 10
 bar-load-font = 2
-bar-load-foreground-0 = #55aa55
-bar-load-foreground-1 = #557755
+bar-load-foreground-0 = #70AA55
+bar-load-foreground-1 = #607755
 bar-load-foreground-2 = #f5a70a
 bar-load-foreground-3 = #ff5555
 bar-load-fill = ▐
@@ -255,8 +258,8 @@ label-minlen = 8
 bar-used-indicator =
 bar-used-width = 10
 bar-used-font = 2
-bar-used-foreground-0 = #55aa55
-bar-used-foreground-1 = #557755
+bar-used-foreground-0 = #70AA55
+bar-used-foreground-1 = #607755
 bar-used-foreground-2 = #f5a70a
 bar-used-foreground-3 = #ff5555
 bar-used-fill = ▐

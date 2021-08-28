@@ -1,6 +1,7 @@
 # dotfiles
 
-My own dotfiles for software development
+My own dotfiles for software development in my Linux Mint installation\
+Old, refer to my newer dotfiles repo on Arch [here](https://github.com/angelofallars/dotfiles)
 
 ## Applications
 * Neovim
